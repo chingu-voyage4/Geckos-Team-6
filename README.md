@@ -10,11 +10,13 @@ To get the project running on your machine, follow the instructions below.
 
 ### Prerequisites
 
-Requires [Yarn](https://yarnpkg.com/lang/en/docs/install/) to be installed for dependencies.
+Requires Yarn to be installed for dependencies.
+
+- [Install Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 ### Installing
 
-Navigate the terminal into the `Momentumdash` directory and run:
+With Yarn installed, navigate the terminal into the `Momentumdash` directory and run:
 ```sh
 yarn install
 ```
