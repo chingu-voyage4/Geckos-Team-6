@@ -97,6 +97,8 @@ git pull upstream develop
 
 ### Working in the Branch
 
+> :warning: Commands are specific to forks and disregard if working from the primary repo.
+
 Once the branch is created you are now free to edit  code as you normally would in any editor. You may now treat the folder and its contents as your own and be confident in any changes you make.
 
 It is recommended to check if the branch is up to date with `develop` regularly, or as you see big updates merged on the original repo.
