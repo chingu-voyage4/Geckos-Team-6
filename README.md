@@ -21,6 +21,10 @@ With Yarn installed, navigate the terminal into the `Momentumdash` directory and
 yarn install
 ```
 
+## Contributing
+
+Check out the guide on contributing to the repo in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Authors
 
 - [JHart9](https://github.com/JHart9)

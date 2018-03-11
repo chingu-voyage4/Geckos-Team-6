@@ -2,7 +2,19 @@
 
 Follow the instructions below on how to fork the repo and begin making pull requests to contribute code.
 
+#### Table of Contents
+
+- [Forking](#forking)
+    - [Cloning the Fork](#cloning-the-fork)
+- [Branches](#branches)
+    - [Creating Branch](#creating-branch)
+    - [Adding Remote and Keeping Up to Date](adding-remote-and-keeping-up-to-date)
+    - [Working in the Branch](working-in-the-branch)
+- [Pull Requests](pull-requests)
+
 ## Forking
+
+> :warning: Forking **is not required** and if you intend to work from the original repo, ignore this section and skip to [Branches](#Branches)
 
 To begin contributing to this repo, first create a fork by clicking the button at the top that looks like:
 
@@ -56,7 +68,7 @@ For example,
 git checkout -b "feature/#11-readme-update"
 ```
 
-### Adding Remote & Keeping Branch Up to Date
+### Adding Remote and Keeping Up to Date
 
 Over the course of time, the feature branch created may become out of date with changes across the project and may create merge conflicts later on. To prevent this, the original repo will be added as a remote and be fetched regularly.
 
