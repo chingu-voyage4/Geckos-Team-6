@@ -2,19 +2,24 @@
 
 Follow the instructions below on how to fork the repo and begin making pull requests to contribute code.
 
+This is intended to be a comprehensive guide for those who may not be familiar with GitHub's collaborative process.
+
 #### Table of Contents
 
 - [Forking](#forking)
     - [Cloning the Fork](#cloning-the-fork)
 - [Branches](#branches)
     - [Creating Branch](#creating-branch)
-    - [Adding Remote and Keeping Up to Date](adding-remote-and-keeping-up-to-date)
-    - [Working in the Branch](working-in-the-branch)
-- [Pull Requests](pull-requests)
+    - [Adding Remote and Keeping Up to Date](#adding-remote-and-keeping-up-to-date)
+    - [Working in the Branch](#working-in-the-branch)
+- [Pull Requests](#pull-requests)
+    - [Creating Pull Request](#creating-pull-request)
+    - [Issue Closing Keywords](#issue-closing-keywords)
+    - [Final Steps](#final-steps)
 
 ## Forking
 
-> :warning: Forking **is not required** and if you intend to work from the original repo, ignore this section and skip to [Branches](#Branches)
+> :warning: Forking **is not required** and if you intend to work from the original repo, ignore this section and skip to [Branches](#Branches).
 
 To begin contributing to this repo, first create a fork by clicking the button at the top that looks like:
 
@@ -96,5 +101,66 @@ Once the branch is created you are now free to edit  code as you normally would 
 
 It is recommended to check if the branch is up to date with `develop` regularly, or as you see big updates merged on the original repo.
 
+Add all changes and make commits with the commands:
+```sh
+git add .
+```
+```sh
+git commit -m "insert message describing commit here"
+```
+
+And finally push the changes to GitHub with:
+
+```sh
+git push
+```
+
+If there is a message suggesting a command to push to "push the current branch and set the remote as upstream", copy and enter it. If there is an error on a bad pattern, put the branch name into quotes when entering the command again.
+
 ## Pull Requests
 
+When a feature is finally completed, it is time for the branch to be merged into `develop`. To do this, create a PR (pull request) on the main repo.
+
+If the branch was pushed recently, GitHub will even show a convenient option to do it right at the top of the page that looks like:
+
+### Creating Pull Request
+
+![Compare and pull request](https://i.imgur.com/HZ0sp0N.png)
+
+Click the button there to make a PR. If that option isn't showing, click the "New pull request" button instead.
+
+![New PR](https://i.imgur.com/MDKEd91.png)
+
+This next part may look different depending on if a fork was used or not. The important part here is that the **base is set to `develop`** and is **comparing the feature branch**.
+
+![PR](https://i.imgur.com/5TCmDSM.png)
+
+### Issue Closing Keywords
+
+GitHub has [issue closing keywords](https://help.github.com/articles/closing-issues-using-keywords/) that Waffle also uses. Use any of the following words with the issue number to automatically have Waffle move the card into the next column:
+
+- close
+- closes
+- closed
+- fix
+- fixes
+- fixed
+- resolve
+- resolves
+- resolved
+
+For example, a PR could look like this:
+
+![Example PR](https://i.imgur.com/nr2ttSB.png)
+
+> More info on using this with Waffle can be found in their [automatic workflow guide](https://help.waffle.io/automatic-work-tracking/auto-work-tracking-basics/recommended-workflow-using-pull-requests-automatic-work-tracking).
+
+### Final Steps
+
+The PR is now ready and without needing to change anything else, simply click the green button below the text box.
+
+![Create PR](https://i.imgur.com/R12as8I.png)
+
+The PR will now be reviewed by other team members or the project manager and nothing else needs to be done for this feature. If all looks good, it will be merged into `develop` for all other members to be able to work off of and the feature branch can be safely deleted. After merging, this branch should not be worked in again.
+
+Congrats on finishing the feature. :tada:
