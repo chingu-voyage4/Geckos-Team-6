@@ -19,7 +19,7 @@ This is intended to be a comprehensive guide for those who may not be familiar w
 
 ## Forking
 
-> :warning: Forking **is not required** and if you intend to work from the original repo, ignore this section and skip to [Branches](#Branches).
+> :warning: Forking **is not required** and if you intend to work from the original repo, ignore this section and skip to [Branches](#branches).
 
 To begin contributing to this repo, first create a fork by clicking the button at the top that looks like:
 
