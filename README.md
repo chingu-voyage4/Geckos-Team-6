@@ -14,7 +14,10 @@ Requires [Yarn](https://yarnpkg.com/lang/en/docs/install/) to be installed for d
 
 ### Installing
 
-Navigate the terminal into the `Momentumdash` directory and run `yarn install` to install all dependencies.
+Navigate the terminal into the `Momentumdash` directory and run:
+```sh
+yarn install
+```
 
 ## Authors
 
