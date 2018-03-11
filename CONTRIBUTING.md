@@ -75,6 +75,8 @@ git checkout -b "feature/#11-readme-update"
 
 ### Adding Remote and Keeping Up to Date
 
+> :warning: Commands are specific to forks and disregard if working from the primary repo.
+
 Over the course of time, the feature branch created may become out of date with changes across the project and may create merge conflicts later on. To prevent this, the original repo will be added as a remote and be fetched regularly.
 
 To add the original repo as remote, run this command inside the cloned directory:
@@ -96,8 +98,6 @@ git pull upstream develop
 ```
 
 ### Working in the Branch
-
-> :warning: Commands are specific to forks and disregard if working from the primary repo.
 
 Once the branch is created you are now free to edit  code as you normally would in any editor. You may now treat the folder and its contents as your own and be confident in any changes you make.
 
