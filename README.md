@@ -16,10 +16,32 @@ Requires Yarn to be installed for dependencies.
 
 ### Installing
 
-With Yarn installed, navigate the terminal into the `Momentumdash` directory and run:
+With Yarn installed, navigate the terminal into the project and run:
 ```sh
 yarn install
 ```
+
+### Running
+
+Compile the JS/JSX code with:
+
+```sh
+yarn build
+```
+
+Run the local server with:
+
+```sh
+yarn run dev-server
+```
+
+The project will now be running at http://localhost:8080/.
+
+## Built With
+
+- React
+- Babel
+- Webpack
 
 ## Contributing
 
