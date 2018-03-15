@@ -1,9 +1,8 @@
 {
-  "name": "Geckos-Team-6",
+  "name": "momentum_dash",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Jahnava/Geckos-Team-6.git",
-  "author": "jahnava <jahnavalmt@gmail.com>",
+  "author": "Geghos-6",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
