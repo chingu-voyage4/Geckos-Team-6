@@ -1,0 +1,20 @@
+# Project generated files #
+###########################
+node_modules/*
+bundle.js
+*.log
+.bashrc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE generated files #
+#######################
+.vscode
