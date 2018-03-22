@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Geckos-6",
+  "homepage": "https://chingu-voyage4.github.io/Geckos-Team-6/",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
