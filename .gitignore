@@ -4,6 +4,7 @@ node_modules/*
 bundle.js
 *.log
 .bashrc
+build/*
 
 # OS generated files #
 ######################

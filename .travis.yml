@@ -5,8 +5,9 @@ cache:
   directories:
   - node_modules
 script:
-  - yarn install
+  - eslint src/*
   - yarn build
+  - yarn run travis-build
 deploy:
   provider: pages
   skip_cleanup: true
