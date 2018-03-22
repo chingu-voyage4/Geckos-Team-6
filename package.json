@@ -8,8 +8,8 @@
   "scripts": {
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "eslint": "eslint src/*; exit 0",
-    "travis-build": "react-scripts build"
+    "eslint": "eslint src/; exit 0",
+    "travis-build": "CI=false react-scripts build"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -26,7 +26,12 @@
     "webpack-dev-server": "^3.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "7",
-    "eslint": "3.x"
+    "babel-eslint": "6.1.2",
+    "eslint": "3.5.0",
+    "eslint-config-react-app": "0.2.1",
+    "eslint-plugin-flowtype": "2.18.1",
+    "eslint-plugin-import": "1.12.0",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-react": "6.3.0"
   }
 }
