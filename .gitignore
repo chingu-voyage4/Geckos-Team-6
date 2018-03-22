@@ -17,3 +17,7 @@ Thumbs.db
 # IDE generated files #
 #######################
 .vscode
+
+.git
+.bashrc
+yarn-error.log

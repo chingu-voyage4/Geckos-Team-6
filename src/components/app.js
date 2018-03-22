@@ -2,6 +2,12 @@ import React, { Component } from "react";
 
 export default class App extends React.Component {
   render() {
-    return <p>Our starting point ...</p>;
+    return (
+
+    <div>
+        <p>Our starting point ...</p>
+     </div>
+
+     );
   }
 }
