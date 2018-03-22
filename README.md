@@ -1,6 +1,7 @@
 # Momentum Dash Clone
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/chingu-voyage4/Geckos-Team-6.svg?columns=all)](https://waffle.io/chingu-voyage4/Geckos-Team-6)
+[![Build Status](https://travis-ci.org/chingu-voyage4/Geckos-Team-6.svg?branch=master)](https://travis-ci.org/chingu-voyage4/Geckos-Team-6)
 
 A clone created for the purpose of learning of the popular browser plugin, [Momentum](https://momentumdash.com/). 
 

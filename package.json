@@ -2,7 +2,7 @@
   "name": "momentum_dash",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Geghos-6",
+  "author": "Geckos-6",
   "license": "MIT",
   "scripts": {
     "build": "webpack",

@@ -3,6 +3,7 @@
 node_modules/*
 bundle.js
 *.log
+.bashrc
 
 # OS generated files #
 ######################
