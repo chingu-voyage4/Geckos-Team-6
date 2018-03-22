@@ -8,8 +8,8 @@
   "scripts": {
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "eslint": "eslint src/; exit 0",
-    "travis-build": "CI=false react-scripts build"
+    "eslint": "eslint src/*; exit 0",
+    "travis-build": "react-scripts build"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
