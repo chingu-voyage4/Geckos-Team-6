@@ -3,6 +3,7 @@
 node_modules/*
 bundle.js
 *.log
+.bashrc
 
 # OS generated files #
 ######################
@@ -17,7 +18,3 @@ Thumbs.db
 # IDE generated files #
 #######################
 .vscode
-
-.git
-.bashrc
-yarn-error.log
